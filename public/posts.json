@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co.com/7JkmzTsd/closeup-young-female-professional-making-eye-contact-against-colored-background-1.jpg",
+      "title": "The Future of Web Development",
+      "cover": "https://i.ibb.co.com/zVX2Jn5m/high-angle-plant-notebook-frame.jpg",
+      "posted_date": "2025-02-20",
+      "reading_time": "8",
+      "hashtags": ["#WebDevelopment", "#Future", "#Tech"]
+    },
+    {
+      "id": 2,
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co.com/7JkmzTsd/closeup-young-female-professional-making-eye-contact-against-colored-background-1.jpg",
+      "title": "Understanding React Hooks",
+      "cover": "https://i.ibb.co.com/zVX2Jn5m/high-angle-plant-notebook-frame.jpg",
+      "posted_date": "2025-02-18",
+      "reading_time": "10",
+      "hashtags": ["#ReactJS", "#Hooks", "#JavaScript"]
+    },
+    {
+      "id": 3,
+      "author": "Alex Johnson",
+      "author_img": "https://i.ibb.co.com/7JkmzTsd/closeup-young-female-professional-making-eye-contact-against-colored-background-1.jpg",
+      "title": "Mastering JavaScript ES6+ Features",
+      "cover": "https://i.ibb.co.com/zVX2Jn5m/high-angle-plant-notebook-frame.jpg",
+      "posted_date": "2025-02-15",
+      "reading_time": "12",
+      "hashtags": ["#JavaScript", "#ES6", "#Coding"]
+    },
+    {
+      "id": 4,
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co.com/7JkmzTsd/closeup-young-female-professional-making-eye-contact-against-colored-background-1.jpg",
+      "title": "CSS Grid vs Flexbox: Which One to Use?",
+      "cover": "https://i.ibb.co.com/zVX2Jn5m/high-angle-plant-notebook-frame.jpg",
+      "posted_date": "2025-02-12",
+      "reading_time": "7",
+      "hashtags": ["#CSS", "#Grid", "#Flexbox"]
+    },
+    {
+      "id": 5,
+      "author": "Michael Brown",
+      "author_img": "https://i.ibb.co.com/7JkmzTsd/closeup-young-female-professional-making-eye-contact-against-colored-background-1.jpg",
+      "title": "Building Scalable MERN Stack Applications",
+      "cover": "https://i.ibb.co.com/zVX2Jn5m/high-angle-plant-notebook-frame.jpg",
+      "posted_date": "2025-02-10",
+      "reading_time": "15",
+      "hashtags": ["#MERN", "#FullStack", "#WebDevelopment"]
+    }
+  ]
+  
