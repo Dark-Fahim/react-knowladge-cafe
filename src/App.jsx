@@ -14,14 +14,14 @@ function App() {
     setBookmarks(newBookmarks)
   }
   const [readingTime, setReadingTime] = useState(0)
-  function handleMarkAsRead (time) {
-    let isReaded = false
-    if(isReaded === false){
-      isReaded = true
-      const newTime = readingTime + parseInt(time)
-      setReadingTime(newTime)
-    }
-    return
+
+  function handleMarkAsRead(time, id) {
+    const newTime = readingTime + parseInt(time)
+    setReadingTime(newTime)
+    
+
+    const remaining = bookmarks.filter(blog => blog.id !== id)
+    setBookmarks(remaining)
   }
 
   return (
@@ -31,9 +31,9 @@ function App() {
         <Header></Header>
       </div>
       <div className='grid md:grid-cols-3 grid-cols-1 container gap-5'>
-        <Blogs 
-        handleBookmarks={handleBookmarks}
-        handleMarkAsRead={handleMarkAsRead}
+        <Blogs
+          handleBookmarks={handleBookmarks}
+          handleMarkAsRead={handleMarkAsRead}
         ></Blogs>
         <Boookmarks bookmarks={bookmarks} readingTime={readingTime}></Boookmarks>
       </div>

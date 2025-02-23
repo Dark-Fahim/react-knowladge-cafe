@@ -26,7 +26,7 @@ const Blog = ({ blog, handleBookmarks, handleMarkAsRead }) => {
                     hashtags.map((x, idx) => <li key={idx}>{x}</li>)
                 }
             </ul>
-            <p onClick={()=>handleMarkAsRead(reading_time)} className='cursor-pointer border-b inline text-[#6047EC] border-[#6047EC]'>Mark As Read</p>
+            <p onClick={()=>handleMarkAsRead(reading_time, blog.id)} className='cursor-pointer border-b inline text-[#6047EC] border-[#6047EC]'>Mark As Read</p>
         </div>
     );
 };
